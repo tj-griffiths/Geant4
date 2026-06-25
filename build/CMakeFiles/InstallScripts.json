@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/build/cmake_install.cmake"
+		"/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

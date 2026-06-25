@@ -21,6 +21,7 @@ events:
       - "uname"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -36,8 +37,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/uname"
+      - "/Users/thomasgriffiths/.juliaup/bin/uname"
       - "/opt/anaconda3/bin/uname"
       - "/opt/anaconda3/condabin/uname"
       - "/opt/homebrew/bin/uname"
@@ -49,9 +52,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -68,6 +69,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -97,6 +99,7 @@ events:
       - "smake"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -112,8 +115,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/gmake"
+      - "/Users/thomasgriffiths/.juliaup/bin/gmake"
       - "/opt/anaconda3/bin/gmake"
       - "/opt/anaconda3/condabin/gmake"
       - "/opt/homebrew/bin/gmake"
@@ -129,7 +134,9 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
       - "/Library/TeX/texbin/gmake"
+      - "/Library/gurobi1301/macos_universal2/bin/gmake"
       - "/Users/thomasgriffiths/geant4-install/bin/make"
+      - "/Users/thomasgriffiths/.juliaup/bin/make"
       - "/opt/anaconda3/bin/make"
       - "/opt/anaconda3/condabin/make"
       - "/opt/homebrew/bin/make"
@@ -141,9 +148,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -160,6 +165,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -187,6 +193,7 @@ events:
       - "clang"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -202,8 +209,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/cc"
+      - "/Users/thomasgriffiths/.juliaup/bin/cc"
       - "/opt/anaconda3/bin/cc"
       - "/opt/anaconda3/condabin/cc"
       - "/opt/homebrew/bin/cc"
@@ -215,9 +224,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -234,6 +241,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -262,9 +270,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -281,6 +287,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -301,7 +308,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is AppleClang, found in:
-        /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/4.2.1/CompilerIdC/a.out
+        /Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/4.2.1/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -356,6 +363,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -370,13 +378,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -393,6 +400,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -415,6 +423,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -429,13 +438,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -452,6 +460,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -474,6 +483,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -488,13 +498,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -511,6 +520,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -533,6 +543,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -547,13 +558,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -570,6 +580,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -592,6 +603,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -606,13 +618,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -629,6 +640,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -651,6 +663,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -665,13 +678,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -688,6 +700,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -710,6 +723,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -724,9 +738,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
       - "/Users/thomasgriffiths/geant4-install/bin/objcopy"
+      - "/Users/thomasgriffiths/.juliaup/bin/objcopy"
       - "/opt/anaconda3/bin/objcopy"
       - "/opt/anaconda3/condabin/objcopy"
       - "/opt/homebrew/bin/objcopy"
@@ -741,13 +757,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
       - "/Library/TeX/texbin/objcopy"
+      - "/Library/gurobi1301/macos_universal2/bin/objcopy"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -764,6 +779,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -786,6 +802,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -800,9 +817,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/usr/bin/readelf"
       - "/Users/thomasgriffiths/geant4-install/bin/readelf"
+      - "/Users/thomasgriffiths/.juliaup/bin/readelf"
       - "/opt/anaconda3/bin/readelf"
       - "/opt/anaconda3/condabin/readelf"
       - "/opt/homebrew/bin/readelf"
@@ -817,13 +836,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
       - "/Library/TeX/texbin/readelf"
+      - "/Library/gurobi1301/macos_universal2/bin/readelf"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -840,6 +858,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -862,6 +881,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -876,9 +896,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/Users/thomasgriffiths/geant4-install/bin/dlltool"
+      - "/Users/thomasgriffiths/.juliaup/bin/dlltool"
       - "/opt/anaconda3/bin/dlltool"
       - "/opt/anaconda3/condabin/dlltool"
       - "/opt/homebrew/bin/dlltool"
@@ -893,13 +915,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
       - "/Library/TeX/texbin/dlltool"
+      - "/Library/gurobi1301/macos_universal2/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -916,6 +937,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -938,6 +960,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -952,9 +975,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
       - "/Users/thomasgriffiths/geant4-install/bin/addr2line"
+      - "/Users/thomasgriffiths/.juliaup/bin/addr2line"
       - "/opt/anaconda3/bin/addr2line"
       - "/opt/anaconda3/condabin/addr2line"
       - "/opt/homebrew/bin/addr2line"
@@ -969,13 +994,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
       - "/Library/TeX/texbin/addr2line"
+      - "/Library/gurobi1301/macos_universal2/bin/addr2line"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -992,6 +1016,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1014,6 +1039,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -1028,9 +1054,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/Users/thomasgriffiths/geant4-install/bin/tapi"
+      - "/Users/thomasgriffiths/.juliaup/bin/tapi"
       - "/opt/anaconda3/bin/tapi"
       - "/opt/anaconda3/condabin/tapi"
       - "/opt/homebrew/bin/tapi"
@@ -1045,13 +1073,12 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
       - "/Library/TeX/texbin/tapi"
+      - "/Library/gurobi1301/macos_universal2/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -1068,6 +1095,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1099,9 +1127,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -1118,6 +1144,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1146,9 +1173,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -1165,6 +1190,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -1185,7 +1211,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+        /Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -1239,6 +1265,7 @@ events:
       - "install_name_tool"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -1254,15 +1281,15 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
     searched_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/install_name_tool"
+      - "/Users/thomasgriffiths/.juliaup/bin/install_name_tool"
     found: "/opt/anaconda3/bin/install_name_tool"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -1279,6 +1306,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1289,8 +1317,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-Mk7RUe"
-      binary: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-Mk7RUe"
+      source: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-gCJd90"
+      binary: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-gCJd90"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1301,18 +1329,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-Mk7RUe'
+        Change Dir: '/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-gCJd90'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_81075/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_81075.dir/build.make CMakeFiles/cmTC_81075.dir/build
-        Building C object CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a6b4e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a6b4e.dir/build.make CMakeFiles/cmTC_a6b4e.dir/build
+        Building C object CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 16.0.0 (clang-1600.0.26.3)
         Target: arm64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-Mk7RUe -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-Mk7RUe -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-gCJd90 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-gCJd90 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin23.6.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1324,13 +1352,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_81075
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81075.dir/link.txt --verbose=1
+        Linking C executable cmTC_a6b4e
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6b4e.dir/link.txt --verbose=1
         Apple clang version 16.0.0 (clang-1600.0.26.3)
         Target: arm64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_81075 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a6b4e -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1115.7.3
         BUILD 13:29:00 Aug  9 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1338,11 +1366,12 @@ events:
         LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
         TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
         Library search paths:
+        	/usr/local/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -o cmTC_81075
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -o cmTC_a6b4e
         
       exitCode: 0
   -
@@ -1384,18 +1413,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-Mk7RUe']
+        ignore line: [Change Dir: '/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-gCJd90']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_81075/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_81075.dir/build.make CMakeFiles/cmTC_81075.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a6b4e/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a6b4e.dir/build.make CMakeFiles/cmTC_a6b4e.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
         ignore line: [Target: arm64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-Mk7RUe -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-Mk7RUe -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-gCJd90 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-gCJd90 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin23.6.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1407,13 +1436,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_81075]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81075.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_a6b4e]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6b4e.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
         ignore line: [Target: arm64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_81075 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a6b4e -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1430,19 +1459,20 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_81075] ==> ignore
+          arg [cmTC_a6b4e] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_81075.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_a6b4e.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
-        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         remove lib [System]
         remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
         collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
@@ -1477,8 +1507,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-6K9gHP"
-      binary: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-6K9gHP"
+      source: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-DGGBDa"
+      binary: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-DGGBDa"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -1490,19 +1520,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-6K9gHP'
+        Change Dir: '/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-DGGBDa'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8487/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e8487.dir/build.make CMakeFiles/cmTC_e8487.dir/build
-        Building CXX object CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98523/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98523.dir/build.make CMakeFiles/cmTC_98523.dir/build
+        Building CXX object CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 16.0.0 (clang-1600.0.26.3)
         Target: arm64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-6K9gHP -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-6K9gHP -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-DGGBDa -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-DGGBDa -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin23.6.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1515,13 +1545,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_e8487
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8487.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_98523
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98523.dir/link.txt --verbose=1
         Apple clang version 16.0.0 (clang-1600.0.26.3)
         Target: arm64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e8487 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_98523 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1115.7.3
         BUILD 13:29:00 Aug  9 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1529,11 +1559,12 @@ events:
         LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
         TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
         Library search paths:
+        	/usr/local/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e8487
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98523
         
       exitCode: 0
   -
@@ -1577,19 +1608,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-6K9gHP']
+        ignore line: [Change Dir: '/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-DGGBDa']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8487/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e8487.dir/build.make CMakeFiles/cmTC_e8487.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98523/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98523.dir/build.make CMakeFiles/cmTC_98523.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
         ignore line: [Target: arm64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-6K9gHP -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-6K9gHP -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-DGGBDa -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-DGGBDa -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin23.6.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1602,13 +1633,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_e8487]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8487.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_98523]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98523.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
         ignore line: [Target: arm64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e8487 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_98523 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1625,20 +1656,21 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e8487] ==> ignore
+          arg [cmTC_98523] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e8487.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_98523.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
         linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
-        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         remove lib [System]
         remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
         collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
@@ -1689,6 +1721,7 @@ events:
       - "pkgconf"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -1704,6 +1737,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
@@ -1738,6 +1772,8 @@ events:
     searched_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/pkg-config"
       - "/Users/thomasgriffiths/geant4-install/bin/pkgconf"
+      - "/Users/thomasgriffiths/.juliaup/bin/pkg-config"
+      - "/Users/thomasgriffiths/.juliaup/bin/pkgconf"
       - "/opt/anaconda3/bin/pkg-config"
       - "/opt/anaconda3/bin/pkgconf"
       - "/opt/anaconda3/condabin/pkg-config"
@@ -1768,6 +1804,8 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/pkgconf"
       - "/Library/TeX/texbin/pkg-config"
       - "/Library/TeX/texbin/pkgconf"
+      - "/Library/gurobi1301/macos_universal2/bin/pkg-config"
+      - "/Library/gurobi1301/macos_universal2/bin/pkgconf"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/pkg-config"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/pkgconf"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/pkg-config"
@@ -1834,9 +1872,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -1853,6 +1889,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1887,8 +1924,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-vrOwFC"
-      binary: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-vrOwFC"
+      source: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-9f54zg"
+      binary: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-9f54zg"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1901,15 +1938,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-vrOwFC'
+        Change Dir: '/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-9f54zg'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c3cfe/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c3cfe.dir/build.make CMakeFiles/cmTC_c3cfe.dir/build
-        Building C object CMakeFiles/cmTC_c3cfe.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_c3cfe.dir/src.c.o -MF CMakeFiles/cmTC_c3cfe.dir/src.c.o.d -o CMakeFiles/cmTC_c3cfe.dir/src.c.o -c "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/CMakeScratch/TryCompile-vrOwFC/src.c"
-        Linking C executable cmTC_c3cfe
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3cfe.dir/link.txt --verbose=1
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c3cfe.dir/src.c.o -o cmTC_c3cfe
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7979e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7979e.dir/build.make CMakeFiles/cmTC_7979e.dir/build
+        Building C object CMakeFiles/cmTC_7979e.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_7979e.dir/src.c.o -MF CMakeFiles/cmTC_7979e.dir/src.c.o.d -o CMakeFiles/cmTC_7979e.dir/src.c.o -c /Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/CMakeScratch/TryCompile-9f54zg/src.c
+        Linking C executable cmTC_7979e
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7979e.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7979e.dir/src.c.o -o cmTC_7979e
         
       exitCode: 0
   -
@@ -1953,11 +1990,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/PTLConfig.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/PTLConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/ptl-config.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/ptl-config.cmake"
         mode: "config"
         reason: "no_exist"
     found:
@@ -1967,9 +2004,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -1986,6 +2021,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2034,6 +2070,7 @@ events:
       - "gl.h"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -2049,6 +2086,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -2083,9 +2121,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -2102,6 +2138,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2153,6 +2190,7 @@ events:
       - "GL"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -2164,10 +2202,12 @@ events:
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
       - "/opt/homebrew/"
+      - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
@@ -2178,6 +2218,7 @@ events:
       - "/System/Library/Frameworks/"
     searched_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -2189,10 +2230,12 @@ events:
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
       - "/opt/homebrew/"
+      - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
@@ -2205,9 +2248,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -2224,6 +2265,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2294,11 +2336,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/Qt5NetworkConfig.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/Qt5NetworkConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/qt5network-config.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/qt5network-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2324,9 +2366,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -2343,6 +2383,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2412,11 +2453,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/Qt5GamepadConfig.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/Qt5GamepadConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/qt5gamepad-config.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/qt5gamepad-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2434,9 +2475,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -2453,6 +2492,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2521,11 +2561,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/Qt53DInputConfig.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/Qt53DInputConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/qt53dinput-config.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/qt53dinput-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2543,9 +2583,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -2562,6 +2600,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2630,11 +2669,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/Qt53DLogicConfig.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/Qt53DLogicConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/qt53dlogic-config.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/qt53dlogic-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2652,9 +2691,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -2671,6 +2708,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2719,6 +2757,7 @@ events:
       - "GLU"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -2730,10 +2769,12 @@ events:
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
       - "/opt/homebrew/"
+      - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
@@ -2746,9 +2787,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -2765,6 +2804,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2815,6 +2855,7 @@ events:
       - "GL/glu.h"
     candidate_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -2830,6 +2871,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -2860,6 +2902,7 @@ events:
       - "/System/Library/Frameworks/"
     searched_directories:
       - "/Users/thomasgriffiths/geant4-install/bin/OpenGL.framework/Headers/glu.h"
+      - "/Users/thomasgriffiths/.juliaup/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/anaconda3/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/anaconda3/condabin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/glu.h"
@@ -2875,6 +2918,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/OpenGL.framework/Headers/glu.h"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/OpenGL.framework/Headers/glu.h"
       - "/Library/TeX/texbin/OpenGL.framework/Headers/glu.h"
+      - "/Library/gurobi1301/macos_universal2/bin/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/glu.h"
@@ -2902,9 +2946,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -2921,6 +2963,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2992,11 +3035,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/Geant4Config.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/Geant4Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/CMakeFiles/pkgRedirects/geant4-config.cmake"
+        path: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/build/CMakeFiles/pkgRedirects/geant4-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3014,9 +3057,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -3033,6 +3074,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3077,8 +3119,9 @@ events:
       - "HepMC/GenEvent.h"
     candidate_directories:
       - "/include/"
-      - "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/HEPmc/include/"
+      - "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/HEPmc/include/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -3094,6 +3137,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -3124,8 +3168,9 @@ events:
       - "/System/Library/Frameworks/"
     searched_directories:
       - "/include/HepMC.framework/Headers/GenEvent.h"
-      - "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/HEPmc/include/HepMC.framework/Headers/GenEvent.h"
+      - "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/HEPmc/include/HepMC.framework/Headers/GenEvent.h"
       - "/Users/thomasgriffiths/geant4-install/bin/HepMC.framework/Headers/GenEvent.h"
+      - "/Users/thomasgriffiths/.juliaup/bin/HepMC.framework/Headers/GenEvent.h"
       - "/opt/anaconda3/bin/HepMC.framework/Headers/GenEvent.h"
       - "/opt/anaconda3/condabin/HepMC.framework/Headers/GenEvent.h"
       - "/opt/homebrew/bin/HepMC.framework/Headers/GenEvent.h"
@@ -3141,6 +3186,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/HepMC.framework/Headers/GenEvent.h"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/HepMC.framework/Headers/GenEvent.h"
       - "/Library/TeX/texbin/HepMC.framework/Headers/GenEvent.h"
+      - "/Library/gurobi1301/macos_universal2/bin/HepMC.framework/Headers/GenEvent.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/HepMC.framework/Headers/GenEvent.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/HepMC.framework/Headers/GenEvent.h"
       - "/opt/homebrew/include/HepMC.framework/Headers/GenEvent.h"
@@ -3170,58 +3216,11 @@ events:
       - "/Network/Library/Frameworks/HepMC.framework/Headers/GenEvent.h"
       - "/System/Library/Frameworks/HepMC.framework/Headers/GenEvent.h"
       - "/include/HepMC/GenEvent.h"
-      - "/Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/GeantExample3/build/HEPmc/include/HepMC/GenEvent.h"
-      - "/Users/thomasgriffiths/geant4-install/bin/HepMC/GenEvent.h"
-      - "/opt/anaconda3/bin/HepMC/GenEvent.h"
-      - "/opt/anaconda3/condabin/HepMC/GenEvent.h"
-      - "/opt/homebrew/bin/HepMC/GenEvent.h"
-      - "/opt/homebrew/sbin/HepMC/GenEvent.h"
-      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/HepMC/GenEvent.h"
-      - "/usr/local/bin/HepMC/GenEvent.h"
-      - "/System/Cryptexes/App/usr/bin/HepMC/GenEvent.h"
-      - "/usr/bin/HepMC/GenEvent.h"
-      - "/bin/HepMC/GenEvent.h"
-      - "/usr/sbin/HepMC/GenEvent.h"
-      - "/sbin/HepMC/GenEvent.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/HepMC/GenEvent.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/HepMC/GenEvent.h"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/HepMC/GenEvent.h"
-      - "/Library/TeX/texbin/HepMC/GenEvent.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/HepMC/GenEvent.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/HepMC/GenEvent.h"
-      - "/opt/homebrew/include/HepMC/GenEvent.h"
-      - "/opt/homebrew/HepMC/GenEvent.h"
-      - "/usr/local/include/HepMC/GenEvent.h"
-      - "/usr/local/HepMC/GenEvent.h"
-      - "/usr/include/HepMC/GenEvent.h"
-      - "/usr/HepMC/GenEvent.h"
-      - "/include/HepMC/GenEvent.h"
-      - "/usr/X11R6/include/HepMC/GenEvent.h"
-      - "/usr/X11R6/HepMC/GenEvent.h"
-      - "/usr/pkg/include/HepMC/GenEvent.h"
-      - "/usr/pkg/HepMC/GenEvent.h"
-      - "/opt/include/HepMC/GenEvent.h"
-      - "/opt/HepMC/GenEvent.h"
-      - "/sw/include/HepMC/GenEvent.h"
-      - "/sw/HepMC/GenEvent.h"
-      - "/opt/local/include/HepMC/GenEvent.h"
-      - "/opt/local/HepMC/GenEvent.h"
-      - "/usr/include/X11/HepMC/GenEvent.h"
-      - "/Users/thomasgriffiths/Library/Frameworks/HepMC/GenEvent.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/HepMC/GenEvent.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/HepMC/GenEvent.h"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/HepMC/GenEvent.h"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/HepMC/GenEvent.h"
-      - "/Library/Frameworks/HepMC/GenEvent.h"
-      - "/Network/Library/Frameworks/HepMC/GenEvent.h"
-      - "/System/Library/Frameworks/HepMC/GenEvent.h"
-    found: false
+    found: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/HEPmc/include/"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -3238,6 +3237,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3283,7 +3283,9 @@ events:
     names:
       - "HepMC"
     candidate_directories:
+      - "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/HEPmc/lib/"
       - "/Users/thomasgriffiths/geant4-install/bin/"
+      - "/Users/thomasgriffiths/.juliaup/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
@@ -3295,10 +3297,12 @@ events:
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/TeX/texbin/"
+      - "/Library/gurobi1301/macos_universal2/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
       - "/opt/homebrew/"
+      - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
       - "/usr/"
@@ -3307,38 +3311,11 @@ events:
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/thomasgriffiths/geant4-install/bin/"
-      - "/opt/anaconda3/bin/"
-      - "/opt/anaconda3/condabin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/TeX/texbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: false
+    found: "/Users/thomasgriffiths/Documents/Projects/Github/Geant4/HEPmc/lib/libHepMC.dylib"
     search_context:
       ENV{PATH}:
         - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
+        - "/Users/thomasgriffiths/.juliaup/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/Users/thomasgriffiths/geant4-install/bin"
@@ -3355,491 +3332,7 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/TeX/texbin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-...
-
----
-events:
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:5 (find_path)"
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:232 (include)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
-      - "/Users/thomasgriffiths/geant4-install/lib/cmake/Geant4/Geant4Config.cmake:395 (find_dependency)"
-      - "CMakeLists.txt:14 (find_package)"
-    mode: "path"
-    variable: "_qt5gui_OPENGL_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "gl.h"
-    candidate_directories:
-      - "/Users/thomasgriffiths/geant4-install/bin/"
-      - "/opt/anaconda3/bin/"
-      - "/opt/anaconda3/condabin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/Library/TeX/texbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/sw/include/"
-      - "/sw/"
-      - "/opt/local/include/"
-      - "/opt/local/"
-      - "/usr/include/X11/"
-      - "/Users/thomasgriffiths/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/Network/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-      - "/System/Library/Frameworks/OpenGL.framework/Headers/"
-      - "/System/Library/Frameworks/AGL.framework/Headers/"
-    found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/"
-    search_context:
-      ENV{PATH}:
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/opt/anaconda3/bin"
-        - "/opt/anaconda3/condabin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Library/TeX/texbin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:50 (find_library)"
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:99 (_qt5gui_find_extra_libs)"
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:232 (include)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
-      - "/Users/thomasgriffiths/geant4-install/lib/cmake/Geant4/Geant4Config.cmake:395 (find_dependency)"
-      - "CMakeLists.txt:14 (find_package)"
-    mode: "library"
-    variable: "Qt5Gui_GL_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GL"
-    candidate_directories:
-      - "/Users/thomasgriffiths/geant4-install/bin/"
-      - "/opt/anaconda3/bin/"
-      - "/opt/anaconda3/condabin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/TeX/texbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/Users/thomasgriffiths/geant4-install/bin/"
-      - "/opt/anaconda3/bin/"
-      - "/opt/anaconda3/condabin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/TeX/texbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/opt/anaconda3/bin"
-        - "/opt/anaconda3/condabin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Library/TeX/texbin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-...
-
----
-events:
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:5 (find_path)"
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:232 (include)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
-      - "/Users/thomasgriffiths/geant4-install/lib/cmake/Geant4/Geant4Config.cmake:395 (find_dependency)"
-      - "CMakeLists.txt:14 (find_package)"
-    mode: "path"
-    variable: "_qt5gui_OPENGL_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "gl.h"
-    candidate_directories:
-      - "/opt/anaconda3/bin/"
-      - "/opt/anaconda3/condabin/"
-      - "/Users/thomasgriffiths/geant4-install/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/Library/TeX/texbin/"
-      - "/Users/thomasgriffiths/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/include/"
-      - "/opt/homebrew/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/sw/include/"
-      - "/sw/"
-      - "/opt/local/include/"
-      - "/opt/local/"
-      - "/usr/include/X11/"
-      - "/Users/thomasgriffiths/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/Network/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-      - "/System/Library/Frameworks/OpenGL.framework/Headers/"
-      - "/System/Library/Frameworks/AGL.framework/Headers/"
-    found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/"
-    search_context:
-      ENV{PATH}:
-        - "/opt/anaconda3/bin"
-        - "/opt/anaconda3/condabin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Library/TeX/texbin"
-        - "/Users/thomasgriffiths/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:50 (find_library)"
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:99 (_qt5gui_find_extra_libs)"
-      - "/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:232 (include)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
-      - "/Users/thomasgriffiths/geant4-install/lib/cmake/Geant4/Geant4Config.cmake:395 (find_dependency)"
-      - "CMakeLists.txt:14 (find_package)"
-    mode: "library"
-    variable: "Qt5Gui_GL_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GL"
-    candidate_directories:
-      - "/opt/anaconda3/bin/"
-      - "/opt/anaconda3/condabin/"
-      - "/Users/thomasgriffiths/geant4-install/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/TeX/texbin/"
-      - "/Users/thomasgriffiths/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/opt/anaconda3/bin/"
-      - "/opt/anaconda3/condabin/"
-      - "/Users/thomasgriffiths/geant4-install/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/TeX/texbin/"
-      - "/Users/thomasgriffiths/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/opt/homebrew/lib/"
-      - "/opt/homebrew/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/opt/anaconda3/bin"
-        - "/opt/anaconda3/condabin"
-        - "/Users/thomasgriffiths/geant4-install/bin"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Library/TeX/texbin"
-        - "/Users/thomasgriffiths/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
+        - "/Library/gurobi1301/macos_universal2/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"

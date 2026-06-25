@@ -1,23 +1,15 @@
 # Apparently need to initialize first
 /run/initialize
 #
-# Use this open statement to create an OpenGL view:
 /vis/open OGL 1000x1000-0+0
 #
-# Disable auto refresh and quieten vis messages whilst scene and
-# trajectories are established:
 /vis/viewer/set/autoRefresh false
 /vis/verbose errors
 #
-# Draw geometry:
 /vis/drawVolume
 #
-# Specify view angle:
-#/vis/viewer/set/viewpointThetaPhi 0 0 # 90 180 # x-section
-/vis/viewer/set/viewpointThetaPhi 120 150 # perspective
+/vis/viewer/set/viewpointThetaPhi 90 180 # perspective
 #
-# Specify zoom value:
-#/vis/viewer/zoom 1.4
 /vis/viewer/zoom 1.0
 #
 # Prettify detector
@@ -27,9 +19,14 @@
 /vis/geometry/set/colour Absorber 0 1 1 1 1.0 # White, 100% opaque
 /vis/geometry/set/colour Tracker1 0 0 1 1 0.5 # Cyan, 50% opaque
 /vis/geometry/set/colour Tracker2 0 0 1 1 0.5 # Cyan, 50% opaque
+/vis/geometry/set/colour EmPb 0 0.4 0.4 0.4 1.0    # Grey for EM lead absorbers
+/vis/geometry/set/colour HcFe 0 0.6 0.3 0.0 1.0    # Brown for HC iron absorbers
+/vis/geometry/set/colour EmLAr 0 0.0 0.6 1.0 0.8   # Blue for all EM LAr layers
+/vis/geometry/set/colour HcSc  0 1.0 1.0 0.0 0.8   # Yellow for all HC scintillator layers
+/vis/geometry/set/colour MuonDetector 0 0 1 0 0.2  # Green for Muon Detector
+/vis/geometry/set/colour MuonEndcap 0 0 1 0 0.2 # Green for Muon Endcap
 #
-# Draw smooth trajectories
-# Colour-coded by particle type
+# Draw smooth trajectories, colour-coded by particle type
 /vis/scene/add/trajectories smooth
 /vis/modeling/trajectories/create/drawByParticleID
 /vis/modeling/trajectories/drawByParticleID-0/set e- red
@@ -39,21 +36,17 @@
 /vis/modeling/trajectories/drawByParticleID-0/set gamma green
 /vis/modeling/trajectories/drawByParticleID-0/set neutron yellow
 /vis/modeling/trajectories/drawByParticleID-0/set proton cyan
-/vis/modeling/trajectories/drawByParticleID-0/set nu_e grey
+/vis/modeling/trajectories/drawByParticleID-0/set anti_proton magenta
+/vis/modeling/trajectories/drawByParticleID-0/set pi+ orange
+/vis/modeling/trajectories/drawByParticleID-0/set pi- orange
 #
-# Turn on step points (or don't)
 /vis/modeling/trajectories/drawByParticleID-0/default/setDrawStepPts false
-#/vis/modeling/trajectories/drawByParticleID-0/default/setStepPtsSize 2
 #
-# Draw hits at end of event:
 /vis/scene/add/hits
 #
-# To superimpose all of the events from a given run:
 /vis/scene/endOfEventAction accumulate
 #
-# Re-establish auto refreshing and verbosity:
 /vis/viewer/set/autoRefresh true
 /vis/verbose warnings
 #
-# Bump up the display limit to stop those annoying warnings
 /vis/ogl/set/displayListLimit 9999999

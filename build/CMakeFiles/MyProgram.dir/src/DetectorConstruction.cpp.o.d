@@ -1,6 +1,6 @@
 CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.o: \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/src/DetectorConstruction.cpp \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/include/DetectorConstruction.h \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/src/DetectorConstruction.cpp \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/include/DetectorConstruction.h \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/globals.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4ios.hh \
@@ -1044,7 +1044,7 @@ CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.o: \
   /Users/thomasgriffiths/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4LogicalVolume.icc \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/include/PositionFinder.h \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/include/PositionFinder.h \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4CollectionNameVector.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4HCofThisEvent.hh \
@@ -1202,5 +1202,5 @@ CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.o: \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4SDManager.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4HCtable.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4SDStructure.hh \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/include/CalorimeterSD.h \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/include/MuonSD.h
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/include/CalorimeterSD.h \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/include/MuonSD.h

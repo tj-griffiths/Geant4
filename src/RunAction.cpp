@@ -15,6 +15,7 @@ RunAction::RunAction() : G4UserRunAction()
   analysisManager->CreateNtupleDColumn( "Theta" );
   analysisManager->CreateNtupleDColumn( "Momentum" );
   analysisManager->CreateNtupleIColumn( "ParticleCode");
+  analysisManager->CreateNtupleIColumn( "Charge");
   analysisManager->FinishNtuple();
 
   // Add an ntuple for tracker layer 1 (ntuple id 1)

@@ -1,6 +1,6 @@
 CMakeFiles/MyProgram.dir/src/main.cpp.o: \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/src/main.cpp \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/include/DetectorConstruction.h \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/src/main.cpp \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/include/DetectorConstruction.h \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/globals.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4ios.hh \
@@ -1044,7 +1044,7 @@ CMakeFiles/MyProgram.dir/src/main.cpp.o: \
   /Users/thomasgriffiths/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4LogicalVolume.icc \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/include/ActionInitialization.h \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/include/ActionInitialization.h \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4RunManager.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4Event.hh \

@@ -1,6 +1,6 @@
 CMakeFiles/MyProgram.dir/src/PositionFinder.cpp.o: \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/src/PositionFinder.cpp \
-  /Users/thomasgriffiths/Documents/Projects/Physics/UE-Phys-DA&ML/S2/Project3/include/PositionFinder.h \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/src/PositionFinder.cpp \
+  /Users/thomasgriffiths/Documents/Projects/Github/Geant4/include/PositionFinder.h \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/G4CollectionNameVector.hh \
   /Users/thomasgriffiths/geant4-install/include/Geant4/globals.hh \
