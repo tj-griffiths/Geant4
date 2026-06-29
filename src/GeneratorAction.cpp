@@ -93,6 +93,9 @@ void GeneratorAction::GeneratePrimaries( G4Event* anEvent )
   }
 }
 
+
+// Used claude to generate events from Particle Gun and HepMC files.  The HepMC files are read in and the vertices and particles are extracted.  
+//  The energy is sampled from a log-uniform distribution and the direction is sampled isotropically.  The truth information is also written to the analysis manager.
 void GeneratorAction::GenerateFromHepMC(G4Event* anEvent, HepMC::IO_GenEvent*& reader, const char* path)
 {
   HepMC::GenEvent* hepmcEvent = reader->read_next_event();
@@ -191,6 +194,7 @@ void GeneratorAction::GenerateFromGun(G4Event* anEvent, const G4String& particle
   WriteTruth(anEvent->GetEventID(), phi, theta, energy / GeV, particleCode, charge);
 }
 
+// WriteTruth() writes the truth information to the analysis manager
 void GeneratorAction::WriteTruth(G4int eventID, G4double phi, G4double theta, G4double momentumGeV, G4int particleCode, G4int charge)
 
 {

@@ -2,6 +2,16 @@
 #define PositionFinder_h 1
 
 #include "G4VSensitiveDetector.hh"
+#include <map>
+
+
+struct TrackerHitRecord
+{
+    G4double phi;
+    G4double theta;
+    G4double energyDeposit;
+    G4double pathLength;
+};
 
 
 class PositionFinder : public G4VSensitiveDetector
@@ -16,7 +26,7 @@ class PositionFinder : public G4VSensitiveDetector
 
   private:
     G4int m_ID;
-    std::set<G4int> m_recordedTracks; // Keep track of which tracks have already been recorded, so we only record one hit per track
+    std::map<G4int, TrackerHitRecord> m_trackHits; // Map to store the hit records for each track ID
 };
 
 #endif

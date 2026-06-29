@@ -22,7 +22,7 @@ class GeneratorAction : public G4VUserPrimaryGeneratorAction
 
     void GenerateFromHepMC( G4Event* event, HepMC::IO_GenEvent*& reader, const char* path);
 
-    // Singe-particle source for species taht aren't naturally pair-produced
+    // Singe-particle source for species that aren't naturally pair-produced
     G4ParticleGun* m_gun;
     void GenerateFromGun(G4Event* anEvent, const G4String& particleName,
                          G4int particleCode, G4int charge);

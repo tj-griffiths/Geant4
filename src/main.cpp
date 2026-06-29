@@ -41,11 +41,27 @@ int main( int argc, char* argv[] )
 
   // Set up the command line interface
   G4UImanager* UImanager = G4UImanager::GetUIpointer();
-  UImanager->ApplyCommand( "/control/execute vis.mac" );
-  UImanager->ApplyCommand( "/control/execute run.mac" );
-  ui->SessionStart(); //Comment out to disable Visualizer
-  delete ui;
 
-  delete visManager; //Comment out to disable Visualizer
+  // Used claude to setup a macro that runs the simulation headlessly (no vismanager, no UI session, no window)
+  if ( argc > 1)
+  {
+    G4String command = "/control/execute ";
+    G4String fileName = argv[1];
+    UImanager->ApplyCommand( command + fileName );
+  }
+  else
+  {
+    G4UIExecutive* ui = new G4UIExecutive( argc, argv );
+    G4VisManager* visManager = new G4VisExecutive();
+    visManager->Initialize();
+
+    UImanager->ApplyCommand( "/control/execute vis.mac" );
+    UImanager->ApplyCommand( "/control/execute run.mac" );
+    ui->SessionStart();
+
+    delete ui;
+    delete visManager;
+  }
   delete runManager;
+  return 0;
 }

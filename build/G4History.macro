@@ -1,4 +1,6 @@
 /globalField/verbose 1
 /globalField/setValue 0 0 0.5 tesla
 /run/beamOn 0
-/vis/scene/notifyHandlers scene-0
+/run/beamOn 1000
+/analysis/h1/getVector
+/analysis/h2/getVector

@@ -21,15 +21,21 @@ RunAction::RunAction() : G4UserRunAction()
   // Add an ntuple for tracker layer 1 (ntuple id 1)
   analysisManager->CreateNtuple( "Tracker1", "Tracker 1 coordinates" );
   analysisManager->CreateNtupleIColumn( "EventNumber" );
+  analysisManager->CreateNtupleIColumn( "TrackID" );
   analysisManager->CreateNtupleDColumn( "Phi" );
   analysisManager->CreateNtupleDColumn( "Theta" );
+  analysisManager->CreateNtupleDColumn( "EnergyDeposited" );
+  analysisManager->CreateNtupleDColumn( "PathLength");
   analysisManager->FinishNtuple();
 
   // Add an ntuple for tracker layer 2 (ntuple id 2)
   analysisManager->CreateNtuple( "Tracker2", "Tracker 2 coordinates" );
   analysisManager->CreateNtupleIColumn( "EventNumber" );
+  analysisManager->CreateNtupleIColumn( "TrackID" );
   analysisManager->CreateNtupleDColumn( "Phi" );
   analysisManager->CreateNtupleDColumn( "Theta" );
+  analysisManager->CreateNtupleDColumn( "EnergyDeposited" );
+  analysisManager->CreateNtupleDColumn( "PathLength");
   analysisManager->FinishNtuple();
 
   // Add an ntuple for EM Cal (ntuple id 3)
