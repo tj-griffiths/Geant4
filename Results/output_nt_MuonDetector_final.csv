@@ -1,9 +1,0 @@
-#class tools::wcsv::ntuple
-#title Coordinates of hits in Muon Detector
-#separator 44
-#vector_separator 59
-#column int EventNumber
-#column double Phi
-#column double Theta
-415,1.94177,2.67981
-657,-2.20066,0.702314
