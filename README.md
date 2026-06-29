@@ -1,10 +1,10 @@
 # Geant4 Detector Simulation & Machine Learning Analysis
 
-**Thomas Griffiths** — Data Analysis and Machine Learning, University of Edinburgh
+**Thomas Griffiths** - Data Analysis and Machine Learning, University of Edinburgh
 
 This notebook (`Data_Analysis.ipynb`) is the analysis half of a Geant4 particle-detector
 project. It takes the raw hit-level output of the simulation and turns it into
-reconstructed particle momenta, energies, charges, and species — first with a
+reconstructed particle momenta, energies, charges, and species - first with a
 hand-written rule-based classifier, then with a gradient-boosted ML model for comparison.
 
 The aim mirrors what real collider experiments like ATLAS and CMS do at event level:
@@ -18,23 +18,23 @@ measure what the detector can actually see, and try to infer what particle produ
 | EM Calorimeter | Alternating liquid argon / lead layers; samples electromagnetic shower energy |
 | Hadronic Calorimeter | Alternating iron / scintillator layers; samples hadronic shower energy |
 | Muon system | Outer detection layer with aluminium endcaps |
-| Beam | Mixed source: e⁻/e⁺, μ⁻/μ⁺, photons, protons/antiprotons, and pions across a range of energies |
+| Beam | Mixed source: e-/e+, mu-/mu+, photons, protons/antiprotons, and pions across a range of energies |
 
 ![Detector](Images/Detector.png)
 
 ## What's in the notebook
 
-1. **Data Reading** — loads the six Geant4 ntuple outputs (EM cal, hadronic cal, muon
+1. **Data Reading** - loads the six Geant4 ntuple outputs (EM cal, hadronic cal, muon
    detector, both tracker layers, truth) into pandas DataFrames and maps truth particle
    codes to both a coarse `TrueType` (electron/muon/photon/hadron) and a fine-grained
    `TrueSpecies` (e.g. electron vs. positron, proton vs. antiproton) using particle code
    + truth charge.
 2. **Event Reconstruction**
-   - *Momentum & track pairing* — pairs Tracker1/Tracker2 hits by shared `TrackID` and
+   - *Momentum & track pairing* - pairs Tracker1/Tracker2 hits by shared `TrackID` and
      reconstructs momentum from the sagitta.
-   - *Charge from curvature* — sign of the bend angle gives reconstructed charge,
+   - *Charge from curvature* - sign of the bend angle gives reconstructed charge,
      calibrated against a clean muon sample.
-   - *Calorimeter energy* — total deposited energy per event, cross-checked against
+   - *Calorimeter energy* - total deposited energy per event, cross-checked against
      summed truth momentum (important for events with hard final-state radiation).
 3. **Particle Type Classification**
    - Rule-based, event-level classifier using only detector observables (no truth
@@ -58,24 +58,13 @@ measure what the detector can actually see, and try to infer what particle produ
 |---|---|---|
 | Rule-based | ~65% | Muon ~100%, electron ~79%, hadron ~43%, photon ~42% |
 | ML (HistGradientBoosting) | ~87% (held-out test set) | Confirmed stable under 5-fold CV |
-| Charge ID (rule-based curvature) | ~98–99% | Collapses to chance when curvature sign is withheld from the ML model, confirming it's the only source of charge information |
+| Charge ID (rule-based curvature) | ~98-99% | Collapses to chance when curvature sign is withheld from the ML model, confirming it's the only source of charge information |
 
-The dominant rule-based misclassifications (photon→electron, hadron→other classes) are
-not noise: they trace back to a small number of physical effects — most notably a
-geometrically-derived ~45° angular blind cone from the missing calorimeter endcaps,
+The dominant rule-based misclassifications (photon->electron, hadron->other classes) are
+not noise: they trace back to a small number of physical effects - most notably a
+geometrically-derived ~45 deg angular blind cone from the missing calorimeter endcaps,
 plus hadronic punch-through and shower-shape overlap between particle types.
 
-## Requirements
-
-- Python 3.x
-- `numpy`, `pandas`, `matplotlib`
-- `scikit-learn` (`HistGradientBoostingClassifier`, `permutation_importance`,
-  `confusion_matrix`, `cross_val_score`/`cross_val_predict`)
-- `scipy` (binomial significance test)
-
-```bash
-pip install numpy pandas matplotlib scikit-learn scipy
-```
 
 ## Input data
 
@@ -99,8 +88,8 @@ used by the ML classifier.
 ## Running
 
 1. Run the Geant4 simulation to produce the CSVs above in `build/`.
-2. Open `Data_Analysis.ipynb` and run all cells top to bottom — the pipeline order
-   (reconstruction → classification → calibration → ML comparison) is intentional and
+2. Open `Data_Analysis.ipynb` and run all cells top to bottom - the pipeline order
+   (reconstruction -> classification -> calibration -> ML comparison) is intentional and
    later sections depend on DataFrames built earlier in the notebook.
 
 ## Known limitations / future work
